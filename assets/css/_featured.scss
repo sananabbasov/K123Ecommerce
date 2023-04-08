@@ -1,0 +1,38 @@
+.featured{
+    background-color: $bgpink;
+    min-height: 672px;
+    display: flex;
+    padding: 20px 0;
+    .myContainer{
+        width: 60%;
+        margin: auto;
+        .feature-box{
+            .box-img{
+                width: 100%;
+                margin-left: 30px;
+                img{
+                    width: 100%;
+                }
+            }
+            .box-info{
+                margin-top: -40px;
+                h1{
+                    font-size: 36px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $textblack;
+                    width: 100%;
+                    font-size: 24px;
+                    &::after{
+                        content: '';
+                        width: 120px;
+                        height: 1px;
+                        background-color: $textblack;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

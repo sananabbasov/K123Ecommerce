@@ -1,0 +1,28 @@
+.arrivals{
+    background-color: $bgyellow;
+    width: 100%;
+    min-height: 639px;
+    .arrival-info{
+        text-align: center;
+        .subinfo{
+            font-size: 24px;
+        }
+        .info{
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 10px;
+        }
+        a{
+            display: inline-block;
+            margin-top: 50px;
+            width: 255px;
+            text-align: center;
+            align-items: center;
+            padding: 16px 0;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px solid $textblack;
+            color: $textblack;
+        }
+    }
+}

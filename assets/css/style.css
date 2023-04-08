@@ -1,0 +1,151 @@
+.header-main {
+  background-color: #FBEBB5;
+  width: 100%;
+  height: 100vh;
+}
+.header-main .mynavbar {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+.header-main .mynavbar .nav-items {
+  width: 430px;
+}
+.header-main .mynavbar .nav-items ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main .mynavbar .nav-items ul li {
+  list-style: none;
+}
+.header-main .mynavbar .nav-items ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.header-main .mynavbar .right {
+  width: 247px;
+}
+.header-main .mynavbar .right ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-main .mynavbar .right ul li {
+  list-style: none;
+}
+.header-main .mynavbar .right ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.header-main .mynavbar .right ul li button {
+  background-color: transparent;
+  border: none;
+}
+.header-main .banner {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-main .banner .banner-img {
+  width: 40%;
+}
+.header-main .banner .banner-img img {
+  width: 100%;
+}
+.header-main .banner .banner-info {
+  width: 30%;
+}
+.header-main .banner .banner-info h1 {
+  font-size: 64px;
+}
+.header-main .banner .banner-info a {
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+  font-size: 24px;
+}
+.header-main .banner .banner-info a::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: #000000;
+  display: block;
+}
+
+.featured {
+  background-color: #FAF4F4;
+  min-height: 672px;
+  display: flex;
+  padding: 20px 0;
+}
+.featured .myContainer {
+  width: 60%;
+  margin: auto;
+}
+.featured .myContainer .feature-box .box-img {
+  width: 100%;
+  margin-left: 30px;
+}
+.featured .myContainer .feature-box .box-img img {
+  width: 100%;
+}
+.featured .myContainer .feature-box .box-info {
+  margin-top: -40px;
+}
+.featured .myContainer .feature-box .box-info h1 {
+  font-size: 36px;
+}
+.featured .myContainer .feature-box .box-info a {
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+  font-size: 24px;
+}
+.featured .myContainer .feature-box .box-info a::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  background-color: #000000;
+  display: block;
+}
+
+.picks {
+  padding: 54px 0;
+}
+.picks .picks-text {
+  text-align: center;
+}
+.picks .picks-text p {
+  color: #9F9F9F;
+}
+
+.arrivals {
+  background-color: #FFF9E5;
+  width: 100%;
+  min-height: 639px;
+}
+.arrivals .arrival-info {
+  text-align: center;
+}
+.arrivals .arrival-info .subinfo {
+  font-size: 24px;
+}
+.arrivals .arrival-info .info {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 10px;
+}
+.arrivals .arrival-info a {
+  display: inline-block;
+  margin-top: 50px;
+  width: 255px;
+  text-align: center;
+  align-items: center;
+  padding: 16px 0;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #000000;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
